@@ -1,0 +1,55 @@
+body {
+    background-color: darkgray;
+}
+
+.head {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    padding: 10px;
+}
+
+.signup {
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 600px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+}
+
+.form {
+    position: relative;
+    left: 2rem;
+}
+
+.in {
+    width: 360px;
+    height: 48px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.butt {
+    width: 360px;
+    height: 48px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.butt:hover {
+    background-color: #45a049;
+}
